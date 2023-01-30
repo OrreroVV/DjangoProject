@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['127.0.0.1', '43.139.34.35']
 
 INSTALLED_APPS = [
     'channels',
-    'video',
+    'video.apps.VideoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -116,7 +116,7 @@ TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
